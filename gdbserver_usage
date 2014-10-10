@@ -1,0 +1,12 @@
+1. server
+gdbserver 192.168.31.1:2000 a.out
+  * output, input should do on the server!
+
+2. client
+  * vimgdb,ex :set gdbprg=/usr/local/bin/mygdb
+
+  gdb a.out
+  target remote 192.168.31.1:2000
+
+
+
