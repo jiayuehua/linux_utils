@@ -1,0 +1,1 @@
+tcpdump tcp -i br-lan -t -s 0 -c 10000 and dst port ! 22 and src host 192.168.31.166 -w target1.cap
