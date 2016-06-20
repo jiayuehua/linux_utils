@@ -1,0 +1,5 @@
+rob@ads1:/etc/sysconfig/network-scripts$ cat route-eth1 
+192.168.178.252/32 via 192.168.178.249
+rob@ads1:/etc/sysconfig/network-scripts$ cat /etc/ethers 
+# see man ethers for syntax
+192.168.178.249 00:0C:29:D1:35:AE
