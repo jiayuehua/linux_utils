@@ -1,0 +1,2 @@
+$ w
+$ pkill -kill -t pts/2 
