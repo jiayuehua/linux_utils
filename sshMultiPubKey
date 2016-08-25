@@ -1,0 +1,11 @@
+#use different rsa file to connect different ssh-server without password
+rob@cdn:~$ cat .ssh/config 
+Host github.com
+HostName github.com
+User jiayuehua
+IdentityFile ~rob/.ssh/id_rsa
+
+Host 10.180.91.77
+HostName 10.180.91.77
+User root
+IdentityFile ~rob/.ssh/id_rsa_le
